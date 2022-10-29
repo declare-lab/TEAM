@@ -4,7 +4,7 @@ The repository contains the implementation of the paper [Two is Better than Many
 
 ## Experiments
 
-The DeBEERTa TEAM model on the SWAG dataset can be trained as follows:
+The DeBERTa TEAM model on the SWAG dataset can be trained as follows:
 
 ```
 CUDA_VISIBLE_DEVICES=0 python train_swag.py --name "microsoft/deberta-v3-large" --epochs 5 --lr 1e-6 --shuffle
