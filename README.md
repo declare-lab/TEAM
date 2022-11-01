@@ -1,6 +1,6 @@
 # Two is Better than Many? Binary Classification as an Effective Approach to Multi-Choice Question Answering
 
-The repository contains the implementation of the paper [Two is Better than Many? Binary Classification as an Effective Approach to Multi-Choice Question Answering](https://arxiv.org/abs/) (EMNLP 2022)
+The repository contains the implementation of the paper [Two is Better than Many? Binary Classification as an Effective Approach to Multi-Choice Question Answering](https://arxiv.org/abs/2210.16495) (EMNLP 2022)
 
 ## Experiments
 
