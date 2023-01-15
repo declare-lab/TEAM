@@ -53,9 +53,9 @@ class Model(nn.Module):
         labels = torch.tensor(labels, dtype=torch.long).to(logits.device)
         loss = self.ce_loss_func(logits, labels)
         preds_cls = list(torch.argmax(logits, 1).cpu().numpy())
-        positive_probability = logits[:, 1]
+        positive_logits = logits[:, 1]
         
-        preds = torch.argmax(positive_probability.reshape(-1, self.num_choices), 1)
+        preds = torch.argmax(positive_logits.reshape(-1, self.num_choices), 1)
         preds = list(preds.cpu().numpy())
         return loss, preds, preds_cls
     
