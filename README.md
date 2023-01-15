@@ -17,7 +17,7 @@ You can use `--name "roberta-large"` to train the RoBERTa model.
 You can use the appropriate training scripts for the other datasets. Running the scripts will print an `Instance Acc`, which is the main MCQA task accuracy reported in the Table 2 and 3 of our paper. For some of the datasets, you need to upload the test predictions in the [AllenAI Leaderboard](https://leaderboard.allenai.org/) to obtain the test results. The scripts provided in this repository will save the test predictions for each epoch in the appropriate experiment folders ready for upload to the leaderboard.
 
 
-The Score models can be benchmarked using the `run_mcq.py` script. The scirpt is adapted from the [HuggingFace MCQA example](https://github.com/huggingface/transformers/tree/main/examples/pytorch/multiple-choice).
+The Score models can be benchmarked using the `run_mcqa_score.py` script. The scirpt is adapted from the [HuggingFace MCQA example](https://github.com/huggingface/transformers/tree/main/examples/pytorch/multiple-choice).
 
 The DeBERTa Score model on the SWAG dataset can be trained as follows:
 ```
